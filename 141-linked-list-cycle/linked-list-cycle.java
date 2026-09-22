@@ -20,10 +20,11 @@ public class Solution {
             fast=fast.next;
             if(fast==null)  break;
             if(slow==fast) return true;
+            slow=slow.next;
             fast=fast.next;
              if(fast==null)  break;
             if(slow==fast) return true;
-            slow=slow.next;
+            
             
            
             }
